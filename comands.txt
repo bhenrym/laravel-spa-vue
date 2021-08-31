@@ -1,0 +1,17 @@
+composer install
+
+cp .env.example .env
+
+php artisan key:generate
+
+npm install
+
+php artisan jwt:secret
+
+
+
+create DB_DATABASE laravel_spa_vue
+ 
+ run migration
+
+php artisan migrate
